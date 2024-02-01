@@ -196,7 +196,7 @@
             </section>
             <!-- troubleshooting-->
             <section class="resume-section" id="troubleshooting">
-                <div class="resume-section-content">
+                <div class="resume-section-content" >
                     <h2 class="mb-5">트러블 슈팅</h2>
                     <h3 class="mb-0"><i class="fa-solid fa-circle-exclamation"></i> 이미지 업로드 이슈</h3>
                     <br>
@@ -239,12 +239,12 @@
                      <p style="font-weight: bold; font-size: 17px;">1. 스케쥴링 동작 방식</p>
                      <p style="font-size: 15px">
                         - @Scheduled 어노테이션을 사용하면 일정한 시간 간격으로, 혹은 특정 시간에 코드가 실행되도록 설정할 수 있습니다.<br>
-                        - fixedRate 또는 cron 속성을 사용하여 메서드를 얼마나 자주 실행할지를 정의합니다.
+                        - fixedRate 또는 cron 속성을 사용하여 메서드를 얼마나 자주 실행할지를 정의합니다.<br>
                         - Spring은 ApplicationContext에 스케줄러를 등록합니다. 이 스케줄러는 주기적으로 어노테이션이 적용된 메서드를 실행합니다.
                      </p>
                      <p style="font-weight: bold; font-size: 17px;">2. CRON 표현식</p>
                      <p style="font-size: 15px">
-                        - CRON 표현식은 시간 기반 스케줄링 작업을 정의하며, 다양한 시간 단위로 작업을 수행할 수 있도록 합니다.
+                        - CRON 표현식은 시간 기반 스케줄링 작업을 정의하며, 다양한 시간 단위로 작업을 수행할 수 있도록 합니다.<br>
                         - <초> <분> <시> <일> <월> <요일> <년> 형태이며 각각의 위치에는 특정 숫자나 특수 문자를 사용하여 시간을 나타냅니다. 
                      </p>
                      <button class="documentButton" onclick="window.open('https://github.com/gurehd1105/final/issues/113', '_blank')">
@@ -253,6 +253,39 @@
                     <button class="documentButton" onclick="window.open('https://github.com/gurehd1105/final/commit/00193cd4e71321d7930720d6f86965362c497ec1', '_blank')">
                         관련 커밋
                     </button>
+
+                     <br>
+                     <br>
+                     <div id="carouselExampleInterval1" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px; margin: auto; height: 300px;">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="scrollable-container">
+                                    <img src="assets/img/스케줄링1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="scrollable-container">
+                                    <img src="assets/img/스케줄링2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="scrollable-container">
+                                    <img src="assets/img/스케줄링3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <br>
+                     <br>
+                     <br>
                      <br>
                      <br>
                      <br>
@@ -337,7 +370,7 @@
                     </p>
                     <p style="font-weight: bold; font-size: 17px;">2. 페이징 기능과 검색기능이 함께 있는 페이지</p>
                     <p style="font-size: 15px">
-                        - 검색 기능을 위한 공통 속성들을 포함하는 SearchParam Vo를 구현하고 페이징 처리를 위해 Page Vo를 상속받아 확장하였습니다. <br>
+                        - 검색 기능을 위한 공통 속성들을 포함하는 SportsEquipmentSearchParam Vo를 구현하고 페이징 처리를 위해 SearchParam Vo를 상속받아 확장하였습니다. <br>
                         - 이해당 프로젝트의 여러 모듈에서 발생하는 페이징, 검색 로직을 SearchParam Vo를 활용하여 통일된 방식으로 처리하였습니다.<br>
                      </p>
                      <p style="font-weight: bold; font-size: 20px;"><i class="fa-solid fa-check"></i> 이점</p>
@@ -354,9 +387,50 @@
                         SearchParam을 통해 검색 기능에 필요한 속성들을 표준화하였으며, <br>
                         SearchParam을 통해 검색과 페이징을 한 번에 처리할 수 있도록 편리한 인터페이스를 제공하였습니다.<br>
                        </p>
-                     <button class="documentButton" onclick="window.open('https://github.com/gurehd1105/final/issues/123', '_blank')">
+                    <button class="documentButton" onclick="window.open('https://github.com/gurehd1105/final/issues/123', '_blank')">
                         깃허브 이슈
                     </button>
+                       <br>
+                       <div id="carouselExampleInterval2" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px; margin: auto; height: 300px;">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                  <div class="scrollable-container">
+                                      <img src="assets/img/페이지1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                  <div class="scrollable-container">
+                                      <img src="assets/img/페이지2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="scrollable-container">
+                                      <img src="assets/img/페이지3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="scrollable-container">
+                                    <img src="assets/img/페이지_적용1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="scrollable-container">
+                                    <img src="assets/img/페이지_적용2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                      <br>
+                    <br>
+                    <br>
                     <br>
                     <br>
                     <br>
@@ -395,8 +469,34 @@
                         관련 커밋
                     </button>
                     <br>
-                    <br>
-                    <br>
+                    <div id="carouselExampleInterval3" class="carousel slide" data-bs-ride="carousel" style="max-width: 600px; margin: auto; height: 300px;">
+                       <div class="carousel-inner">
+                           <div class="carousel-item active" data-bs-interval="10000">
+                               <div class="scrollable-container">
+                                   <img src="assets/img/명시적수정.jpg" class="d-block w-100" alt="...">
+                               </div>
+                           </div>
+                           <div class="carousel-item">
+                               <div class="scrollable-container">
+                                   <img src="assets/img/명시적수정2.jpg" class="d-block w-100" alt="...">
+                               </div>
+                           </div>
+                       </div>
+                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Previous</span>
+                       </button>
+                       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval3" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                       </button>
+                   </div>
+                   <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
+                 <br>
                     <h3 class="mb-0"><i class="fa-solid fa-share"></i> Service 레이어의 리턴 타입을 Map 이 아닌 VO로 변경</h3>
                     <br>
                     <p style="font-weight: bold; font-size: 20px;"><i class="fa-solid fa-check"></i> 필요성</p>
@@ -463,4 +563,9 @@
     .documentButton:hover {
         background-color: #666059; 
     }
+    
+    .scrollable-container {
+    max-height: 400px; 
+    overflow-y: auto;
+}
 </style>
